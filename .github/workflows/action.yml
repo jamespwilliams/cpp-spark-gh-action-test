@@ -1,8 +1,5 @@
-on:
-  push:
-    branches:
-    - master
-name: Run the tool
+on: push
+name: CPP Evaluator
 jobs:
   eslint:
     runs-on: ubuntu-latest
