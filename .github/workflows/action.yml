@@ -6,4 +6,4 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: CPP Evaluation
-        uses: luke142367/cpp-evaluation-action@0.0.1
+        uses: jamespwilliams/cpp-spark-gh-action-test
