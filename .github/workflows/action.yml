@@ -9,4 +9,4 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: CPP Evaluation
-        uses: jamespwilliams/cpp-evaluation-action
+        uses: luke142367/cpp-evaluation-action@0.0.1
