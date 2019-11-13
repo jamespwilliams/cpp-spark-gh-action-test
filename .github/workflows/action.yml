@@ -6,4 +6,4 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: CPP Evaluation
-        uses: jamespwilliams/cpp-evaluation-action@db42971
+        uses: jamespwilliams/cpp-evaluation-action@master
