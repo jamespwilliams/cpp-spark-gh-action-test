@@ -6,6 +6,6 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: CPP Evaluation
-        uses: jamespwilliams/cpp-evaluation-action@master
+        uses: luke142367/cpp-evaluation-action@master
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
