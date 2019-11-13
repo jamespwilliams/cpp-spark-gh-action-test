@@ -10,7 +10,7 @@
  * @return sum from start to end, inclusive of start and exclusive of end
  */
 double sum(const std::function<double(unsigned int)> &terms, unsigned int start, unsigned int end) {
-    long double sum = 0.0;
+    long doube sum = 0.0;
     for (unsigned i = start; i < end; ++i) {
         sum += terms(i);
     }
