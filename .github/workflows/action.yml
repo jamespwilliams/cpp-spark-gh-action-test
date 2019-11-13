@@ -1,11 +1,11 @@
 on: push
 name: CPP Evaluator
 jobs:
-  eslint:
+  cpp_spark:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: CPP Evaluation
+      - name: C++ Evaluation
         uses: luke142367/cpp-evaluation-action@master
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
